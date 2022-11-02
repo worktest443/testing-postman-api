@@ -62,6 +62,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Warsaw weather",
+			"id": "d425326e-3e5c-43b2-a63b-49bd56b03656",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.open-meteo.com/v1/forecast?latitude=52.2297&longitude=21.0122&hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,rain",
+					"protocol": "https",
+					"host": [
+						"api",
+						"open-meteo",
+						"com"
+					],
+					"path": [
+						"v1",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "52.2297"
+						},
+						{
+							"key": "longitude",
+							"value": "21.0122"
+						},
+						{
+							"key": "hourly",
+							"value": "temperature_2m,relativehumidity_2m,dewpoint_2m,rain"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
