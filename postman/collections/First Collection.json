@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "e45f12ec-1e50-40b8-8997-b0cfef7b696e",
+		"_postman_id": "a0ad8b07-34b3-4d59-a01c-fa7851d54df8",
 		"name": "First Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "14727879-e45f12ec-1e50-40b8-8997-b0cfef7b696e"
+		"_uid": "14727879-a0ad8b07-34b3-4d59-a01c-fa7851d54df8"
 	},
 	"item": [
 		{
 			"name": "get dummy posts",
-			"id": "086e2f56-44ee-472c-a16b-5053ff58033e",
+			"id": "7a490656-830b-47f3-a889-398224ceaae0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -32,7 +32,7 @@
 		},
 		{
 			"name": "computer science questions",
-			"id": "286fb1dd-94a2-4dcf-a85e-1a1d6ce76ead",
+			"id": "3577ad0b-1a30-4f6d-a90c-ac8fd338d0b4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -40,7 +40,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://opentdb.com/api.php?amount=10&category=18",
+					"raw": "https://opentdb.com/api.php?amount=10&category={{questionCategory}}",
 					"protocol": "https",
 					"host": [
 						"opentdb",
@@ -56,7 +56,7 @@
 						},
 						{
 							"key": "category",
-							"value": "18"
+							"value": "{{questionCategory}}"
 						}
 					]
 				}
@@ -65,7 +65,7 @@
 		},
 		{
 			"name": "Warsaw weather",
-			"id": "d425326e-3e5c-43b2-a63b-49bd56b03656",
+			"id": "c7ed576e-804e-4ff7-89cd-be1c1ebe91e3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
